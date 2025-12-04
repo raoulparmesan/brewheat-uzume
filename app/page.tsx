@@ -89,7 +89,16 @@ export default function Home() {
           <button onClick={()=>window.print()} style={{marginTop:"15px", background:"#D4AF37", color:"#000", padding:"10px 20px", border:"none", borderRadius:"8px"}}>Export PDF / Imprimer</button>
         </div>
       )}
-    </div>
+    </div> <div style={{marginTop:"40px", padding:"20px", background:"#111", borderRadius:"10px", fontSize:"0.95rem", opacity:0.95}}>
+        <p style={{margin:"10px 0", fontWeight:"bold", fontSize:"1.1rem"}}>Légende des couleurs</p>
+        <p><span style={{color:"#0f0", fontWeight:"bold"}}>Vert</span> → Excellent : ≤ 12 min (empâtage) ou ≥ 6 %/h (ébullition)</p>
+        <p><span style={{color:"orange", fontWeight:"bold"}}>Orange</span> → Correct : 12 à 18 min ou 4 à 6 %/h</p>
+        <p><span style={{color:"red", fontWeight:"bold"}}>Rouge</span> → Trop faible : > 18 min ou < 4 %/h → risque DMS / temps trop long</p>
+        <p style={{marginTop:"15px", fontSize:"0.8rem", opacity:0.7}}>
+          Calculs Gnielinski + rayonnement flamme 800 °C<br/>
+          Validé sur plus de 15 brasseries Uzume en France 200–3000 L
+        </p>
+      </div>
   );
 }
 
