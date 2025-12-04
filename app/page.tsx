@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [volume, setVolume] = useState(500);
-  const [puissance decimals, setPuissance] = useState(45);
+  const [puissance, setPuissance] = useState(45);
   const [modele, setModele] = useState("Classic 6 tubes");
   const [debit, setDebit] = useState(3);
   const [tempActuelle, setTempActuelle] = useState(62);
