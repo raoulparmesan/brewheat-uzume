@@ -1,6 +1,7 @@
 {
   "name": "brewheat-uzume",
   "version": "1.0.0",
+  ",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,5 +12,10 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/react": "^18",
+    "@types/node": "^20"
   }
 }
